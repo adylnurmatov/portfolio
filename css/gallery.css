@@ -106,13 +106,19 @@ button:hover {
     margin-bottom: 30px;
 }
 
+article {
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+
 .grid-gallery {
     --size: 100px;
     display: grid;
     grid-template-columns: repeat(6, var(--size));
     grid-auto-rows: var(--size);
     gap: 5px;
-    place-items: start center ;
+    place-items: start center;
     margin-bottom: var(--size);
 }
 
